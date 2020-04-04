@@ -1,5 +1,24 @@
 body {
   font-family: sans-serif;
+  margin: 0;
+  background-color: #eeeef2;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('./fonts/Poppins-Regular.ttf');
 }
 
 a {
@@ -18,4 +37,119 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+.nav-container {
+  color: white;
+  background-color: #6648cd;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-container a {
+  color: white;
+  font-family: 'Regular';
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  padding-left: 150px;
+}
+
+.nav-logo a {
+  font-size: 24px;
+}
+
+.login-signup-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 150px;
+}
+
+.landing-hero-container {
+  background-color: #eeeef2;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-container {
+  margin-left: 174px;
+  color: #3c3e46;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.login {
+  margin-top: 124px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+input {
+  margin-left: -15px;
+  margin-bottom: -12px;
+  width: 350px;
+  height: 55px;
+  border-radius: 5px;
+  border-width: 0;
+  text-indent: 10px;
+  font-size: 18px;
+  color: #84889a;
+}
+
+button {
+  background-color: #6648cd;
+  width: 350px;
+  height: 65px;
+  border-radius: 5px;
+  margin-left: -15px;
+  font-size: 18px;
+  color: white;
+}
+
+a {
+  color: #6648cd;
+}
+
+.illustration {
+  background-image: url('./images/Illustration.png');
+  width: 54%;
+  object-fit: cover;
+}
+
+.signup-container {
+  margin-left: 174px;
+  color: #3c3e46;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.signup {
+  margin-top: 50px;
 }
